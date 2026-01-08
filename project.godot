@@ -13,7 +13,7 @@ config_version=5
 config/name="Project Erimos"
 run/main_scene="res://src/scenes/main.tscn"
 config/use_custom_user_dir=true
-config/features=PackedStringArray("4.4", "Forward Plus")
+config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 
 [display]
@@ -22,6 +22,7 @@ window/size/viewport_width=1920
 window/size/viewport_height=1080
 window/size/mode=4
 window/size/borderless=true
+window/vsync/vsync_mode=2
 
 [editor_plugins]
 
@@ -74,6 +75,10 @@ inventory={
 "events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":73,"key_label":0,"unicode":105,"location":0,"echo":false,"script":null)
 ]
 }
+
+[physics]
+
+common/physics_interpolation=true
 
 [rendering]
 
